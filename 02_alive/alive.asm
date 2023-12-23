@@ -17,7 +17,7 @@ main:
          mov             rdi, 1                                    ; 1 = stdout
          mov             rsi, msg1                                 ; string to display
          mov             rdx, msg1Len                              ; length of the string 
-         syscall                                                    ; display the string
+         syscall                                                   ; display the string
          mov             rax, 1                                    ; 1 = write
          mov             rdi, 1                                    ; 1 = stdout
          mov             rsi, msg2                                 ; display new line
